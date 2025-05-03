@@ -1,6 +1,9 @@
 ﻿# VN Captioning
 # Hướng dẫn sử dụng mô hình CaRNet
-
+## link DATASET: 
+```bash
+https://drive.google.com/file/d/1Y9nuHtmO0p0Jd2lvzIF5euiemkJHJ2IU/view?usp=drive_link
+```
 ## 🚀 Huấn luyện mô hình (Training)
 
 ### CaRNetvI
