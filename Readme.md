@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿# Thực hiện sinh chú giải ảnh bằng mô hình EN-DE, C[aA]RNet!   
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)   ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)  [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)  
 
@@ -453,4 +453,4 @@ Các tính năng chính:
 - `--attention t` dùng để bật chế độ attention cho mô hình `CaRNetvHCAttention`.
 - `--attention_dim` nên để 1024 (mặc định khuyến nghị).
 - Nếu không cung cấp `--image_path`, chương trình sẽ duyệt toàn bộ thư mục `images/`.
->>>>>>> 39317fbf606aad6a55c26429a30d4b4d1c206329
+
