@@ -472,6 +472,22 @@ Dưới đây là các lần huấn luyện tôi đã thực hiện, các model 
  - (Xu et al. 2015) [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf)
  - Tài liệu, mã nguồn và bài giảng của Giáo sư [Stefano Melacci](https://www3.diism.unisi.it/~melacci/)
 
+## 📑 Tóm tắt file eval_app.py
+
+`eval_app.py` là ứng dụng web sử dụng Streamlit để đánh giá mô hình sinh chú thích ảnh tiếng Việt với các mô hình CaRNet. Ứng dụng hỗ trợ hai chế độ:
+- **Ảnh đơn**: Cho phép người dùng tải lên một ảnh, sinh caption và hiển thị kết quả trực tiếp.
+- **Toàn bộ thư mục**: Đánh giá tự động tất cả ảnh trong một thư mục, xuất kết quả ra file CSV.
+
+Các tính năng chính:
+- Chọn mô hình CaRNet (vI, vH, vHC, vHCAttention) và giao diện sáng/tối.
+- Tùy chọn chế độ đánh giá (ảnh đơn hoặc thư mục).
+- Hiển thị logo, tiêu đề, mô tả ứng dụng.
+- Tự động tải và cấu hình mô hình phù hợp.
+- Tính điểm BLEU cho caption.
+- Lưu kết quả đánh giá hàng loạt vào file `eval_results.csv`.
+
+Ứng dụng giúp kiểm thử, trình diễn và đánh giá nhanh hiệu quả các mô hình sinh chú thích ảnh trong dự án.
+
 ## Tác giả
 
 - [@Thisorp](https://www.github.com/Thisorp)
