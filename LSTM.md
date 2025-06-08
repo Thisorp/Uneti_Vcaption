@@ -193,6 +193,30 @@ python main.py RNetvHC eval 1024 1024 --image_path ./33465647.jpg
 ```bash
 python main.py RNetvHCAttention  eval 1024 1024 --attention t --attention_dim 1024 --image_path ./33465647.jpg
 ```
+**Đánh giá toàn bộ thư mục ảnh (Folder Evaluation)**
+
+```bash
+python eval.py RNetvHCAttention eval 1024 1024 --attention t --attention_dim 1024 --dataset_folder ./testset --output_csv ./testset/caption_test4.csv
+```
+
+> 📄 File `results.csv` sẽ được tạo trong đường dẫn `--output_csv`, theo định dạng: `image_name| comment_number| comment`.
+
+**📊 Đánh giá độ chính xác BLEU**
+
+```bash
+python bleu_newest.py ./caption_test.csv ./results.csv
+```
+
+> So sánh giữa nhãn thực tế (`caption_test.csv`) và dự đoán từ mô hình (`results.csv`).
+
+---
+
+📁 **Chú ý cấu trúc thư mục:**
+- `./dataset/` hoặc `./testset/`
+  - `images/` (thư mục chứa ảnh)
+  - `results.csv` (file chú thích, phân tách bằng dấu `|`)
+
+---
 
 ## Tích hợp GPU
 
@@ -450,4 +474,4 @@ Dưới đây là các lần huấn luyện tôi đã thực hiện, các model 
 
 ## Tác giả
 
-- [@christiandimaio](https://www.github.com/christiandimaio)
+- [@Thisorp](https://www.github.com/Thisorp)
