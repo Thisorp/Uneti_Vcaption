@@ -16,7 +16,7 @@ Bạn có thể xem bảng mục lục dưới đây:
 Trong thư mục ẩn `.saved` có thể tìm thấy tất cả các phiên bản đã huấn luyện của C[aA]RNet.
 
 # Mục lục
-- [Một hiện thực Pythonic cho Bài toán Chú thích Ảnh, C[aA]RNet!](#mot-hien-thuc-pythonic-cho-bai-toan-chu-thich-anh-caar-net)
+- [Một hiện thực Pythonic cho Bài toán Chú thích Ảnh, C[aA]RNet!](#thuc-hien-sinh-chu-giai-anh-bang-mo-hinh-en-de-caarnet)
 - [Mục lục](#muc-luc)
 - [Kiến thức tiền đề](#kien-thuc-tien-de)
 - [Cách chạy mã nguồn](#cach-chay-ma-nguon)
@@ -24,7 +24,7 @@ Trong thư mục ẩn `.saved` có thể tìm thấy tất cả các phiên bả
   * [Thư viện phụ thuộc](#thu-vien-phu-thuoc)
   * [Biến môi trường](#bien-moi-truong)
   * [Giải thích CLI](#giai-thich-cli)
-	  * [Ví dụ](#vi-du)
+    * [Ví dụ](#vi-du)
   * [Tích hợp GPU](#tich-hop-gpu)
 - [Pipeline Dữ liệu](#pipeline-du-lieu)
   * [Định dạng Dataset](#dinh-dang-dataset)
@@ -67,7 +67,7 @@ Mã nguồn có thể chạy trên mọi hệ điều hành, bạn có thể dù
 **Lưu ý rằng bạn cần tải bộ dữ liệu trước khi chạy và nó phải đúng định dạng yêu cầu**
 Cách chuẩn bị dataset cho huấn luyện C[aA]RNet?
 
- 1. [Tải về](https://www.kaggle.com/hsankesara/flickr-image-dataset) bộ dữ liệu.
+ 1. [Tải về](https://drive.google.com/file/d/1Y9nuHtmO0p0Jd2lvzIF5euiemkJHJ2IU/view?usp=sharing) bộ dữ liệu đã được vietsub từ Kaggle Flickr30k.
  2. Giải nén vào thư mục gốc của repo.
  3. Đổi tên thư mục thành *dataset*
  4. Đổi tên thư mục ảnh thành *images*
